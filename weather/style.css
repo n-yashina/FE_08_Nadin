@@ -1,0 +1,64 @@
+body{
+	background: #ddffcc;
+}
+.wrapper{	
+	margin: 0px calc((50%-1px)/2);
+}
+
+.weather-form{
+	padding: 10px 0px 20px 0px;
+}
+.wrapper_text{
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	--primary-font-color: #285473;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.wrapper_header_2{
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+.wrapper_header_3{
+	margin-bottom: 15px;
+}
+.wrapper_header_4{
+}
+.weather-form{	
+	display: flex;
+	justify-content: center;
+	margin: 0 0 20px 0;
+}
+.weather-form-text_field{
+	display: flex;
+	align-self: center;
+	height: 29px;
+	width: 200px;
+	border: 2px solid #ADED59;
+  border-radius: 4px;
+  padding: 6px 16px 6px 20px;
+  margin: 0 20px 6px 0;
+  background: #ECFFD3 url(images//login.png) no-repeat;
+  color: #5F5F5F;
+	font-size: 20px;
+ 
+}
+.weather-form-button{
+	display: inline-block;
+	height:45px;
+  margin: 0 0 0;
+  padding: 0px 15px;
+  background: #B8ED01;
+  border: 0px;
+  border-radius: 12px;
+	font-size: 20px; 
+}
+.city_weather , .temp_weather{
+	display: flex;
+	justify-content: center;	
+}
+.city_weather{
+	font-size:35px;
+}
+.temp_weather{
+	font-size:55px;
+}
